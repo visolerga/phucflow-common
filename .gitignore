@@ -1,6 +1,42 @@
 ﻿# Ignorados automÃ¡ticos para phucflow-common
+
+# Archivos de compilación
 target/
+*.class
+
+# Configuración de IntelliJ IDEA
 .idea/
 *.iml
+*.ipr
+*.iws
+
+# Archivos temporales
 *.log
 *.tmp
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+
+# Archivos de sistema
+.vscode/
+.settings/
+.project
+.classpath
+
+# Archivos de Maven
+.mvn/
+!mvn/wrapper/maven-wrapper.jar
+
+# Archivos de sistema operativo
+ehthumbs.db
+desktop.ini
+
+# Logs de test y cobertura
+test-output/
+jacoco.exec
+coverage-reports/
+
+# Configuración personalizada
+local.properties
+.env
