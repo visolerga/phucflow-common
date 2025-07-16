@@ -1,0 +1,6 @@
+﻿# Ignorados automÃ¡ticos para phucflow-common
+target/
+.idea/
+*.iml
+*.log
+*.tmp
